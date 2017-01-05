@@ -1,0 +1,987 @@
+fileFormatVersion: 2
+guid: c05d55d0300cb614db4b7aaa04460a6b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: _Root
+    100002: Armature
+    100004: BicepL
+    100006: BicepR
+    100008: Chest
+    100010: CollarL
+    100012: CollarR
+    100014: EarEndL
+    100016: EarEndR
+    100018: EarRootL
+    100020: EarRootR
+    100022: EarStartL
+    100024: EarStartR
+    100026: FingersL
+    100028: FingersR
+    100030: FootL
+    100032: FootR
+    100034: ForearmL
+    100036: ForearmR
+    100038: HipL
+    100040: HipR
+    100042: KneeL
+    100044: KneeR
+    100046: LowerHead
+    100048: LowerTorso
+    100050: MidTorso
+    100052: Neck
+    100054: OriginalTeddy
+    100056: PalmJointL
+    100058: PalmJointR
+    100060: PalmL
+    100062: PalmR
+    100064: ShoulderExtL
+    100066: ShoulderExtR
+    100068: ShoulderL
+    100070: ShoulderR
+    100072: //RootNode
+    100074: ThighL
+    100076: ThighR
+    100078: ThumbEndR
+    100080: ThumbStartL
+    100082: ThumbStartR
+    100084: ThumbTipL
+    100086: TopHead
+    100088: WristL
+    100090: WristR
+    400000: _Root
+    400002: Armature
+    400004: BicepL
+    400006: BicepR
+    400008: Chest
+    400010: CollarL
+    400012: CollarR
+    400014: EarEndL
+    400016: EarEndR
+    400018: EarRootL
+    400020: EarRootR
+    400022: EarStartL
+    400024: EarStartR
+    400026: FingersL
+    400028: FingersR
+    400030: FootL
+    400032: FootR
+    400034: ForearmL
+    400036: ForearmR
+    400038: HipL
+    400040: HipR
+    400042: KneeL
+    400044: KneeR
+    400046: LowerHead
+    400048: LowerTorso
+    400050: MidTorso
+    400052: Neck
+    400054: OriginalTeddy
+    400056: PalmJointL
+    400058: PalmJointR
+    400060: PalmL
+    400062: PalmR
+    400064: ShoulderExtL
+    400066: ShoulderExtR
+    400068: ShoulderL
+    400070: ShoulderR
+    400072: //RootNode
+    400074: ThighL
+    400076: ThighR
+    400078: ThumbEndR
+    400080: ThumbStartL
+    400082: ThumbStartR
+    400084: ThumbTipL
+    400086: TopHead
+    400088: WristL
+    400090: WristR
+    4300000: OriginalTeddy
+    7400000: Default Take
+    7400002: A_Pose
+    7400004: Idle1
+    7400006: Idle2
+    7400008: Idle3
+    7400010: Jump
+    7400012: Walk
+    9500000: //RootNode
+    13700000: OriginalTeddy
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/_Root
+        weight: 1
+      - path: Armature/HipL
+        weight: 1
+      - path: Armature/HipL/ThighL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL/FootL
+        weight: 1
+      - path: Armature/HipR
+        weight: 1
+      - path: Armature/HipR/ThighR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR/FootR
+        weight: 1
+      - path: Armature/LowerTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL/ThumbTipL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL/FingersL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR/ThumbEndR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR/FingersR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL/EarEndL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR/EarEndR
+        weight: 1
+      - path: OriginalTeddy
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: A_Pose
+      takeName: A_Pose
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/_Root
+        weight: 1
+      - path: Armature/HipL
+        weight: 1
+      - path: Armature/HipL/ThighL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL/FootL
+        weight: 1
+      - path: Armature/HipR
+        weight: 1
+      - path: Armature/HipR/ThighR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR/FootR
+        weight: 1
+      - path: Armature/LowerTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL/ThumbTipL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL/FingersL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR/ThumbEndR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR/FingersR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL/EarEndL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR/EarEndR
+        weight: 1
+      - path: OriginalTeddy
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle1
+      takeName: Idle1
+      firstFrame: -1
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/_Root
+        weight: 1
+      - path: Armature/HipL
+        weight: 1
+      - path: Armature/HipL/ThighL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL/FootL
+        weight: 1
+      - path: Armature/HipR
+        weight: 1
+      - path: Armature/HipR/ThighR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR/FootR
+        weight: 1
+      - path: Armature/LowerTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL/ThumbTipL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL/FingersL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR/ThumbEndR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR/FingersR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL/EarEndL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR/EarEndR
+        weight: 1
+      - path: OriginalTeddy
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle2
+      takeName: Idle2
+      firstFrame: -1
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/_Root
+        weight: 1
+      - path: Armature/HipL
+        weight: 1
+      - path: Armature/HipL/ThighL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL/FootL
+        weight: 1
+      - path: Armature/HipR
+        weight: 1
+      - path: Armature/HipR/ThighR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR/FootR
+        weight: 1
+      - path: Armature/LowerTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL/ThumbTipL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL/FingersL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR/ThumbEndR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR/FingersR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL/EarEndL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR/EarEndR
+        weight: 1
+      - path: OriginalTeddy
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle3
+      takeName: Idle3
+      firstFrame: -1
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/_Root
+        weight: 1
+      - path: Armature/HipL
+        weight: 1
+      - path: Armature/HipL/ThighL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL/FootL
+        weight: 1
+      - path: Armature/HipR
+        weight: 1
+      - path: Armature/HipR/ThighR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR/FootR
+        weight: 1
+      - path: Armature/LowerTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL/ThumbTipL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL/FingersL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR/ThumbEndR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR/FingersR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL/EarEndL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR/EarEndR
+        weight: 1
+      - path: OriginalTeddy
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Jump
+      firstFrame: -1
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/_Root
+        weight: 1
+      - path: Armature/HipL
+        weight: 1
+      - path: Armature/HipL/ThighL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL/FootL
+        weight: 1
+      - path: Armature/HipR
+        weight: 1
+      - path: Armature/HipR/ThighR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR/FootR
+        weight: 1
+      - path: Armature/LowerTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL/ThumbTipL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL/FingersL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR/ThumbEndR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR/FingersR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL/EarEndL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR/EarEndR
+        weight: 1
+      - path: OriginalTeddy
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: -1
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/_Root
+        weight: 1
+      - path: Armature/HipL
+        weight: 1
+      - path: Armature/HipL/ThighL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL
+        weight: 1
+      - path: Armature/HipL/ThighL/KneeL/FootL
+        weight: 1
+      - path: Armature/HipR
+        weight: 1
+      - path: Armature/HipR/ThighR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR
+        weight: 1
+      - path: Armature/HipR/ThighR/KneeR/FootR
+        weight: 1
+      - path: Armature/LowerTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmJointL/ThumbStartL/ThumbTipL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarL/ShoulderL/ShoulderExtL/BicepL/ForearmL/WristL/PalmL/FingersL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmJointR/ThumbStartR/ThumbEndR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/CollarR/ShoulderR/ShoulderExtR/BicepR/ForearmR/WristR/PalmR/FingersR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootL/EarStartL/EarEndL
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR
+        weight: 1
+      - path: Armature/LowerTorso/MidTorso/Chest/Neck/LowerHead/TopHead/EarRootR/EarStartR/EarEndR
+        weight: 1
+      - path: OriginalTeddy
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

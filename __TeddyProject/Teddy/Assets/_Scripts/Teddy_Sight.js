@@ -3,7 +3,7 @@ public var playerInSight : boolean;                     // Whether or not the pl
 public var personalLastSighting : Vector3;              // Last place this enemy spotted the player.
 
 
-private var nav : NavMeshAgent;                         // Reference to the NavMeshAgent component.
+private var nav : UnityEngine.AI.NavMeshAgent;                         // Reference to the NavMeshAgent component.
 private var col : SphereCollider;                       // Reference to the sphere collider trigger component.
 private var anim : Animator;                            // Reference to the Animator.
 //private var lastPlayerSighting : LastPlayerSighting;    // Reference to last global sighting of the player.
@@ -20,7 +20,7 @@ var heardGunShot : boolean;
 function Awake ()
 {
     // Setting up the references.
-    nav = GetComponent(NavMeshAgent);
+    nav = GetComponent(UnityEngine.AI.NavMeshAgent);
     col = GetComponent(SphereCollider);
     anim = GetComponent(Animator);
   
@@ -134,7 +134,7 @@ function OnTriggerExit (other : Collider)
 function CalculatePathLength (targetPosition : Vector3)
 {
     // Create a path and set it based on a target position.
-    var path : NavMeshPath = new NavMeshPath();
+    var path : UnityEngine.AI.NavMeshPath = new UnityEngine.AI.NavMeshPath();
     if(nav.enabled)
         nav.CalculatePath(targetPosition, path);
     

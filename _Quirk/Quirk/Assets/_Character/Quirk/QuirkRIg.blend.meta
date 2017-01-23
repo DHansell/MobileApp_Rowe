@@ -177,6 +177,10 @@ ModelImporter:
     4300006: Eyes
     7400000: Default Take
     9500000: //RootNode
+    13700000: Eyes
+    13700002: Paddles
+    13700004: Quirk_LP
+    13700006: Tongue
   materials:
     importMaterials: 1
     materialName: 0

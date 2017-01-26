@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 sceneSetups: []
 =======
 sceneSetups:
@@ -7,9 +6,3 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
 >>>>>>> origin/master
-=======
-sceneSetups:
-- path: Assets/_Scenes/MainMenu.unity
-  isLoaded: 1
-  isActive: 1
->>>>>>> parent of 52675f8... Changelog - 003 - Duncan

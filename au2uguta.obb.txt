@@ -1,0 +1,252 @@
+﻿Merge remote-tracking branch 'origin/master'
+
+# Conflicts:
+#	__TeddyProject/Teddy/Assets/_Models/Powerups.meta
+#	__TeddyProject/Teddy/Assets/_Models/Powerups/Invisible.meta
+#	__TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials.meta
+#	__TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/InvisBlocks_Disp.png.meta
+#	__TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/InvisBlocks_Norm.png.meta
+#	__TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/Invis_AO.png.meta
+#	__TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/Invis_Disp.png.meta
+#	__TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/Invis_Norm.png.meta
+#	__TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/Invis_WorldNorm.png.meta
+#	__TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/Invis_WorldNorm2.png.meta
+#	__TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Mesh.meta
+#	__TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Mesh/InvisPUP_Rotation.blend.meta
+#	__TeddyProject/Teddy/Library/CurrentLayout.dwlt
+#	__TeddyProject/Teddy/Library/LastSceneManagerSetup.txt
+#	__TeddyProject/Teddy/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
+#	__TeddyProject/Teddy/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
+#	__TeddyProject/Teddy/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+#	__TeddyProject/Teddy/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+#	__TeddyProject/Teddy/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll.mdb
+#	__TeddyProject/Teddy/Library/ScriptAssemblies/Assembly-UnityScript.dll
+#	__TeddyProject/Teddy/Library/ScriptAssemblies/Assembly-UnityScript.dll.mdb
+#	__TeddyProject/Teddy/Library/assetDatabase3
+#	__TeddyProject/Teddy/Library/expandedItems
+#	__TeddyProject/Teddy/Library/metadata/00/00000000000000002000000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/00000000000000003000000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/00000000000000004000000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/00000000000000004100000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/00000000000000005000000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/00000000000000005100000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/00000000000000006000000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/00000000000000006100000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/00000000000000007000000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/00000000000000007100000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/00000000000000008000000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/00000000000000009000000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/0000000000000000a000000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/0000000000000000a100000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/0000000000000000b000000000000000
+#	__TeddyProject/Teddy/Library/metadata/00/0000000000000000c000000000000000
+#	__TeddyProject/Teddy/Library/metadata/05/05c79c2a938df6c43a9290c4f03590a1.info
+#	__TeddyProject/Teddy/Library/metadata/1d/1d5000b9c665efb4f8fb9089d540bcd8.info
+#	__TeddyProject/Teddy/Library/metadata/38/38dbf2ef9f3ce4b4eb4874f52a758132.info
+#	__TeddyProject/Teddy/Library/metadata/44/44ecef688a1f5e94a9595279e73acb20.info
+#	__TeddyProject/Teddy/Library/metadata/89/899855b38340b46cc8447bdccaca22f2.info
+#	__TeddyProject/Teddy/Library/metadata/a4/a48f8dd285096df4d82818315300ad1e.info
+#	__TeddyProject/Teddy/Library/metadata/a7/a718d6fac4ea10441a758b1c97864679.info
+#	__TeddyProject/Teddy/Library/metadata/aa/aa628978b040944e48a3f82a6440e376.info
+#	__TeddyProject/Teddy/Library/metadata/f2/f2d63a0d191f2cf4b9d94a8f4399dfa3.info
+#	__TeddyProject/Teddy/Library/shadercompiler-UnityShaderCompiler.exe0.log
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 1 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Bed/Materials/New Material 1.mat
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Bed/Materials/New Material 2.mat
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Bed/Materials/New Material 3.mat
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Bed/Materials/New Material 4.mat
+#	new file:   __TeddyProject/Teddy/Assets/_Models/Bed/Texture/Materials/pillow1.mat
+#	new file:   __TeddyProject/Teddy/Assets/_Models/Bed/Texture/Materials/pillow1.mat.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Bed/Texture/Materials/wood_2.mat
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Flag/Materials/None__Untitled.mat
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Powerups.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Powerups/Invisible.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/InvisBlocks_Disp.png.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/InvisBlocks_Norm.png.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/Invis_AO.png.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/Invis_Disp.png.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/Invis_Norm.png.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/Invis_WorldNorm.png.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/Invis_WorldNorm2.png.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Mesh.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Mesh/InvisPUP_Rotation.blend.meta
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Various/Materials/Drawers1_Drawers_Drawer2Mat.mat
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Various/Materials/Drawers1_Drawers_Drawer3Mat.mat
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Various/Materials/Drawers1_Drawers_Drawer4Mat.mat
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Various/Materials/Drawers1_Drawers_Drawer5Mat.mat
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Various/Materials/Drawers1_Drawers_Drawer6Mat.mat
+#	modified:   __TeddyProject/Teddy/Assets/_Models/Various/Materials/DrawersMat.mat
+#	deleted:    __TeddyProject/Teddy/Assets/_Scenes/Test.unity.meta
+#	renamed:    __TeddyProject/Teddy/Assets/_Scenes/Test.unity -> __TeddyProject/Teddy/Assets/_Scenes/w_BedRoom.unity
+#	new file:   __TeddyProject/Teddy/Assets/_Scenes/w_BedRoom.unity.meta
+#	new file:   __TeddyProject/Teddy/Assets/_Scenes/w_Hub.unity
+#	new file:   __TeddyProject/Teddy/Assets/_Scenes/w_Hub.unity.meta
+#	new file:   __TeddyProject/Teddy/Assets/_Scripts/LevelInteractions.meta
+#	new file:   __TeddyProject/Teddy/Assets/_Scripts/LevelInteractions/js_levelWarp.js
+#	new file:   __TeddyProject/Teddy/Assets/_Scripts/LevelInteractions/js_levelWarp.js.meta
+#	modified:   __TeddyProject/Teddy/Library/CurrentMaximizeLayout.dwlt
+#	modified:   __TeddyProject/Teddy/Library/EditorUserSettings.asset
+#	modified:   __TeddyProject/Teddy/Library/LastSceneManagerSetup.txt
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/0/02c9fc9e22ba06281792579f21f88f18.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/0/05b87b2b6b83336d259b5a537e146f5d.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/0/07deb9e877f7d36ba51b3534c0ff5201.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/0/0db2584f82953c56cd4f795394a8828d.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/0/0e0d35c1f6dbf604fa4c53ac8ed4ee8b.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/1/1028916033b4e6fb4c86b83ecf2fa382.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/1/185621b0a894993f612201366dade6b5.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/1/1db3bc8ef1fd14cc5d7ce3fcf4489432.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/1/1dcf73a9acbe54660e61c6ac88201d5d.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/1/1e535b5c5931dc8d2791089e78cc7614.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/2/2007fb550e7bc39a1fad3bd04725df93.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/2/2b4c70d3c0364fce0c485acc23397679.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/2/2e42f6a3fbb039a512dfd49c08c8d14a.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/2/2e70f70b78ead4f5b519bdf5f3fa8594.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/3/33895e2edb1b59479396be3c5a34b115.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/3/34270563a9d476d215dea296dff6729e.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/3/35ca816f9728f82fe9b6ef17ee0ac74e.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/3/35ec519530a7c18bc3c7d82b9b72b8cc.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/4/432cf03504a770ca74b6bc000187c702.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/4/47459f28f4a03045d18535548dd8f448.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/4/499ec7fa2e650a39d5e21c523c56252a.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/5/5b165698cf643b1bb589fa1fb95faec5.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/6/6823f5fea7b415a74bfad0ad7dc76fe3.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/6/6d0744adc6a3570ead2253288a40323c.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/7/725f555f93ae1a1840ff9dec35c8f3c8.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/7/73bf310b6122e0540f5a99ebaadbfcf1.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/7/74871ed913aba627fb129655d5888acb.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/7/7f9358239ef31eb6f782d9ad64d00e31.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/8/8aa91efaa1680223926622ebc10f0729.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/8/8be993ba0390ab93df951bc46223a3f9.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/9/904b850742193d251a5c1d49ecbd74d0.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/9/92a5a5cf03017cfdb129034882f86ea3.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/9/9b212244bde0e56fa1cc0c99b5dd62d7.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/a/ac5d2e81851f5b1bed06d22171eaadca.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/b/b23c28c32802f6648cc7d59afa9bce1d.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/b/b2a95b431db82af4e16f751f3883fe57.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/b/b34ded390e61725bcec62db07631f1d9.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/b/b511dfca572f7a8b1f91eee284bfa6f2.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/b/b590f64fd7bf661611baca35b000e113.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/b/be42fc6784059d58238f933338b2e2fb.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/c/c3d88d6a6ba929382237e3748c2aa97d.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/c/ced4691828799577624ad2401f2c118c.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/d/d02685cce0e745a77e2e152909d68d30.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/d/d782254fb09152037732bfea9b337c2a.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/d/d7a69da4f3903af0e4b6821bde120cef.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/d/d9a59280c6c5f1810b3114587e7723e5.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/d/dda3ac106415d7226ac43251fd663eb8.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/f/f1837381ded3d42411bb10ecb5558507.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/f/f41f2843d73ffbf81c46846110995c27.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/f/f5ceb19c1739bbc40791d6b5ac5c70d6.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/f/f7eacc346e65b7d4ae70196c6d7ffb81.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/f/fa45485e069b43829402a959c7fd5cac.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/f/fc0fde4b08741bbcddd6ffe8ee3ef0c5.bin
+#	new file:   __TeddyProject/Teddy/Library/ShaderCache/f/fcba485ba1e9f55007e59ae329834915.bin
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/SyntaxTree.VisualStudio.Unity.Bridge.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/SyntaxTree.VisualStudio.Unity.Bridge.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.Advertisements.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.Advertisements.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.Analytics.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.Analytics.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.EditorTestsRunner.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.EditorTestsRunner.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.Graphs.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.Graphs.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.HoloLens.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.HoloLens.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.Networking.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.Networking.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.PlaymodeTestsRunner.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.PlaymodeTestsRunner.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.TreeEditor.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.TreeEditor.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.UI.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.UI.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.VR.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.VR.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.WindowsStandalone.Extensions.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.WindowsStandalone.Extensions.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEditor.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.Analytics.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.Analytics.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.HoloLens.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.HoloLens.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.Networking.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.Networking.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.PlaymodeTestsRunner.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.PlaymodeTestsRunner.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.UI.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.UI.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.VR.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.VR.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/UnityEngine.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/nunit.framework.dll
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/nunit.framework.xml
+#	new file:   __TeddyProject/Teddy/Library/UnityAssemblies/version.txt
+#	new file:   __TeddyProject/Teddy/Library/metadata/05/05c79c2a938df6c43a9290c4f03590a1
+#	new file:   __TeddyProject/Teddy/Library/metadata/05/05c79c2a938df6c43a9290c4f03590a1.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/10/10c03c49451874d47a915e3abae8d01c
+#	new file:   __TeddyProject/Teddy/Library/metadata/10/10c03c49451874d47a915e3abae8d01c.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/15/15ca83fc27096374eb95ee891625c220
+#	new file:   __TeddyProject/Teddy/Library/metadata/15/15ca83fc27096374eb95ee891625c220.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/17/170e69acb3fa6734f95e9a635144147a
+#	new file:   __TeddyProject/Teddy/Library/metadata/17/170e69acb3fa6734f95e9a635144147a.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/17/17a9961f1ddd9364595931f5149e8d4b
+#	new file:   __TeddyProject/Teddy/Library/metadata/17/17a9961f1ddd9364595931f5149e8d4b.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/26/261ec120fae95b44dbb9d52cbd111855
+#	new file:   __TeddyProject/Teddy/Library/metadata/26/261ec120fae95b44dbb9d52cbd111855.info
+#	modified:   __TeddyProject/Teddy/Library/metadata/2f/2f62cf743edfb2c45868f2c31728a781.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/47/47348a86253b0494b814742e01a508f1
+#	new file:   __TeddyProject/Teddy/Library/metadata/47/47348a86253b0494b814742e01a508f1.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/5f/5f3e40e7916d8fb47aef32bbeeb314fe
+#	new file:   __TeddyProject/Teddy/Library/metadata/5f/5f3e40e7916d8fb47aef32bbeeb314fe.info
+#	modified:   __TeddyProject/Teddy/Library/metadata/5f/5ff05052bca97a743a97e783cc3ae59c.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/6f/6f8f229ca814c204abb1087f0ce8e3ec
+#	new file:   __TeddyProject/Teddy/Library/metadata/6f/6f8f229ca814c204abb1087f0ce8e3ec.info
+#	modified:   __TeddyProject/Teddy/Library/metadata/74/74e0591c8e4c6ec42b4213c36b924708.info
+#	modified:   __TeddyProject/Teddy/Library/metadata/90/9013ab0e4369827439529cb55e876c98.info
+#	modified:   __TeddyProject/Teddy/Library/metadata/91/91e131560f0834e4087d57c281187ae6.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/9c/9c861013f77adaf47836c87b9130ff36
+#	new file:   __TeddyProject/Teddy/Library/metadata/9c/9c861013f77adaf47836c87b9130ff36.info
+#	modified:   __TeddyProject/Teddy/Library/metadata/a2/a246c755265add84fb99f0be94adc983.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/a4/a48f8dd285096df4d82818315300ad1e
+#	new file:   __TeddyProject/Teddy/Library/metadata/a4/a48f8dd285096df4d82818315300ad1e.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/b9/b9ab879f3b83c47429fb0078f8d2bef3
+#	new file:   __TeddyProject/Teddy/Library/metadata/b9/b9ab879f3b83c47429fb0078f8d2bef3.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/c7/c75d5a1de51b91745a374ac18f83c523
+#	new file:   __TeddyProject/Teddy/Library/metadata/c7/c75d5a1de51b91745a374ac18f83c523.info
+#	modified:   __TeddyProject/Teddy/Library/metadata/ca/ca39e86e791555940bb12f3b924e200c.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/cd/cd884c804a8510a45bb433ef76d69202
+#	new file:   __TeddyProject/Teddy/Library/metadata/cd/cd884c804a8510a45bb433ef76d69202.info
+#	modified:   __TeddyProject/Teddy/Library/metadata/d7/d7ed4b35c0b5e1d4f881672f362dc5c5.info
+#	modified:   __TeddyProject/Teddy/Library/metadata/e8/e896e192659886c4d8e6dfde4f7ce47f.info
+#	renamed:    __TeddyProject/Teddy/Library/metadata/42/4242da262931d44428077f6967fdec6a -> __TeddyProject/Teddy/Library/metadata/ec/ec3d3860c1a558842815097838f601c6
+#	renamed:    __TeddyProject/Teddy/Library/metadata/42/4242da262931d44428077f6967fdec6a.info -> __TeddyProject/Teddy/Library/metadata/ec/ec3d3860c1a558842815097838f601c6.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/ee/eef9d67ddb4cdda45bc56d4687c9f1fa
+#	new file:   __TeddyProject/Teddy/Library/metadata/ee/eef9d67ddb4cdda45bc56d4687c9f1fa.info
+#	modified:   __TeddyProject/Teddy/Library/metadata/f1/f12fdb9ec579c314987e94b2b6d46fba.info
+#	modified:   __TeddyProject/Teddy/Library/metadata/f2/f2c5572f4d3a33541aaaa405d73993cd.info
+#	new file:   __TeddyProject/Teddy/Library/metadata/f2/f2d63a0d191f2cf4b9d94a8f4399dfa3
+#	new file:   __TeddyProject/Teddy/Library/metadata/f2/f2d63a0d191f2cf4b9d94a8f4399dfa3.info
+#	modified:   __TeddyProject/Teddy/Library/metadata/fa/fab78b2d2851f7144880728c261fcb68.info
+#	modified:   __TeddyProject/Teddy/Library/shadercompiler-UnityShaderCompiler.exe0.log
+#
+

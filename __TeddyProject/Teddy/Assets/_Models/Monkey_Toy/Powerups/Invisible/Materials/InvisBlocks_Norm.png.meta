@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 guid: d7bd21405972369479b83899ac932509
+<<<<<<< HEAD:__TeddyProject/Teddy/Assets/_Models/Monkey_Toy/Powerups/Invisible/Materials/InvisBlocks_Norm.png.meta
 timeCreated: 1485453645
+=======
+timeCreated: 1485454209
+>>>>>>> origin/master:__TeddyProject/Teddy/Assets/_Models/Powerups/Invisible/Materials/InvisBlocks_Norm.png.meta
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}

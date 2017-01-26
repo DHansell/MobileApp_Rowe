@@ -1,8 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 2bfd523c5abcc58449b8fa8421388376
-timeCreated: 1485284047
-licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -25,14 +22,6 @@ ModelImporter:
     9500000: //RootNode
     13700000: Cube_001
     13700002: Icosphere_001
-=======
-guid: 15ca83fc27096374eb95ee891625c220
-timeCreated: 1485284004
-licenseType: Free
-ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName: {}
->>>>>>> origin/master
   materials:
     importMaterials: 1
     materialName: 0
@@ -57,7 +46,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

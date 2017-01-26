@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/_Scenes/sene.unity
+=======
+- path: Assets/_Scenes/w_BedRoom.unity
+>>>>>>> origin/master
   isLoaded: 1
   isActive: 1

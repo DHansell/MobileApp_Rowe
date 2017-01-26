@@ -2,35 +2,19 @@
 var autoRotate : boolean = true;
 var maxRotationSpeed : float = 360;
 
-var canJump : boolean = true;
-
-var canMove : boolean = true;
-
-
-
-
 private var motor : CharacterMotor;
 
 // Use this for initialization
 function Awake () {
 	motor = GetComponent(CharacterMotor);
-	
-
 }
-
 
 // Update is called once per frame
 function Update () {
 	// Get the input vector from keyboard or analog stick
-	if(Time.timeScale >= 0.2){
-	
 	var directionVector = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
 	
-	
-	
-	
-	
-	if (directionVector != Vector3.zero && canMove) {
+	if (directionVector != Vector3.zero) {
 		// Get the length of the directon vector and then normalize it
 		// Dividing by the length is cheaper than normalizing when we already have the length anyway
 		var directionLength = directionVector.magnitude;
@@ -46,7 +30,7 @@ function Update () {
 		// Multiply the normalized direction vector by the modified length
 		directionVector = directionVector * directionLength;
 	}
-	if(canMove){
+	
 	// Rotate the input vector into camera space so up is camera's up and right is camera's right
 	directionVector = Camera.main.transform.rotation * directionVector;
 	
@@ -54,17 +38,9 @@ function Update () {
 	var camToCharacterSpace = Quaternion.FromToRotation(-Camera.main.transform.forward, transform.up);
 	directionVector = (camToCharacterSpace * directionVector);
 	
-	
-	
 	// Apply the direction to the CharacterMotor
 	motor.inputMoveDirection = directionVector;
-	}
-	
-	if(canJump)
-	{
-	motor.inputJump = Input.GetButtonDown("Jump");
-	}
-	
+	motor.inputJump = Input.GetButton("Jump");
 	
 	// Set rotation to the move direction	
 	if (autoRotate && directionVector.sqrMagnitude > 0.01) {
@@ -76,8 +52,6 @@ function Update () {
 		newForward = ProjectOntoPlane(newForward, transform.up);
 		transform.rotation = Quaternion.LookRotation(newForward, transform.up);
 	}
-	
-	}
 }
 
 function ProjectOntoPlane (v : Vector3, normal : Vector3) {
@@ -88,9 +62,6 @@ function ConstantSlerp (from : Vector3, to : Vector3, angle : float) {
 	var value : float = Mathf.Min(1, angle / Vector3.Angle(from, to));
 	return Vector3.Slerp(from, to, value);
 }
-
-
-
 
 // Require a character controller to be attached to the same game object
 @script RequireComponent (CharacterMotor)

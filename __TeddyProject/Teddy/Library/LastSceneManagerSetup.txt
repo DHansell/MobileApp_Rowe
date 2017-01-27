@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/_Scenes/w_3Grassland.unity
-  isLoaded: 1
-  isActive: 1

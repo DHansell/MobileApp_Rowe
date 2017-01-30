@@ -1,6 +1,11 @@
-﻿var mainUI : GameObject[];
+﻿#pragma strict
+import UnityEngine.SceneManagement;
+
+var mainUI : GameObject[];
 var creditsUI : GameObject[];
 var how2PlayUI : GameObject[];
+
+var levelName : String = "w_bedroom";
 
 function Awake()
 {
@@ -11,12 +16,14 @@ function Awake()
 
 function Startlvl1()
 {
-	Application.LoadLevel(1);
+	levelName = "w_BedRoom";
+	SceneManager.LoadScene(levelName);
 }
 
 function ReturnToMainMenu()
 {
-	Application.LoadLevel(0);
+	levelName = "w_MainMenu";
+	SceneManager.LoadScene(levelName);
 }
 
 function ExitGame()
@@ -118,7 +125,8 @@ function ReturnToMenu()
 function ReloadCurrentScene()
 {
 	Time.timeScale = 1;
-	Application.LoadLevel(Application.loadedLevel);
+
+	SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 	
 
 }

@@ -1,4 +1,5 @@
 ﻿#pragma strict
+import UnityEngine.SceneManagement;
 
 var levelName : String = "w_bedroom";
 
@@ -13,6 +14,6 @@ function Update () {
 function OnTriggerEnter (other: Collider)
     {
 
-        Application.LoadLevel(levelName);
+         SceneManager.LoadScene(levelName, LoadSceneMode.Additive);
 
     }

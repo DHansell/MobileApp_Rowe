@@ -23,14 +23,17 @@ var motor : CharacterMotor;
 var tedMove : Teddy_Movement;
 var platformMotor : PlatformInputController;
 
+var Teddy : GameObject;
+
 
 var climbing : boolean;
 
 function Awake()
 {
-platformMotor = GetComponent(PlatformInputController);
-motor = GetComponent(CharacterMotor);
-tedMove = GetComponent(Teddy_Movement);
+Teddy = GameObject.FindGameObjectWithTag("Player");
+platformMotor = Teddy.GetComponent(PlatformInputController);
+motor = Teddy.GetComponent(CharacterMotor);
+tedMove = Teddy.GetComponent(Teddy_Movement);
 }
 
 
@@ -153,16 +156,16 @@ function Update ()
    
    anim.SetBool("Shout", false);
    anim.SetBool("Climbing", false);
-   platformMotor.canJump = false;
-   platformMotor.canMove = false;
+   platformMotor.inputJump = false;
+   platformMotor.inputMove = false;
    frozen = true;
    tedMove.currSpeed = 0;
    }
    
    if(Input.GetKeyUp(KeyCode.LeftControl))
    {
-   platformMotor.canJump = true;
-	platformMotor.canMove = true;
+   platformMotor.inputJump = true;
+	platformMotor.inputMove = true;
 	frozen = false;
   
    }

@@ -20,9 +20,9 @@ function Startlvl1()
 	SceneManager.LoadScene(levelName);
 }
 
-function ReturnToMainMenu()
+function ReturnToHub()
 {
-	levelName = "w_MainMenu";
+	levelName = "w_Hub";
 	SceneManager.LoadScene(levelName);
 }
 
@@ -134,6 +134,6 @@ function ReloadCurrentScene()
 function OpenFacebook()
 {
 
-	Application.OpenURL("https//www.facebook.com/NeuroGaming2011");
+	Application.OpenURL("https//www.facebook.com/AscendenceStudios");
 	
 }

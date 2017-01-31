@@ -1,7 +1,7 @@
 ﻿var anim : Animator;
 var walkStateHash : int = Animator.StringToHash("Base Layer.Locomotion.Walk");
 
-var freezeStateHash : int = Animator.StringToHash("Base Layer.Freeze");
+var freezeStateHash : int = Animator.StringToHash("Base Layer.Sleep");
 var idle1StateHash : int = Animator.StringToHash("Base Layer.Idle_Tree.Idle1");
 var idle2StateHash : int = Animator.StringToHash("Base Layer.Idle_Tree.Idle2");
 var idle3StateHash : int = Animator.StringToHash("Base Layer.Idle_Tree.Idle3");
@@ -21,7 +21,9 @@ var idleGoDown : boolean = false;
 
 var motor : CharacterMotor;
 var tedMove : Teddy_Movement;
-var platformMotor : PlatformInputController;
+
+
+
 
 var Teddy : GameObject;
 
@@ -31,7 +33,7 @@ var climbing : boolean;
 function Awake()
 {
 Teddy = GameObject.FindGameObjectWithTag("Player");
-platformMotor = Teddy.GetComponent(PlatformInputController);
+
 motor = Teddy.GetComponent(CharacterMotor);
 tedMove = Teddy.GetComponent(Teddy_Movement);
 }
@@ -51,7 +53,7 @@ function Update ()
  	  
     anim.SetFloat("Speed", curSpeed);
     anim.SetFloat("IdleRange", idleRange);
-    
+
     
     
     if(climbing)
@@ -77,7 +79,7 @@ function Update ()
     	tedMove.currSpeed += 25;
     
     }
-    else {
+    else{
     	tedMove.currSpeed -= 25 * Time.deltaTime * 7;
     
     }
@@ -123,15 +125,7 @@ function Update ()
     
     }
     
-    if(platformMotor.climbObst)
-    {
-    	anim.SetBool("Climbing", true);
-    }
-    else
-    {
-    	anim.SetBool("Climbing", false);
-    }
-    
+   
     
     if(Dead)
     {
@@ -151,32 +145,28 @@ function Update ()
    
    
    
-   if(Input.GetKeyDown(KeyCode.LeftControl))
+    if(Input.GetButtonDown("Crouch"))
    {
-   
-   anim.SetBool("Shout", false);
-   anim.SetBool("Climbing", false);
-   platformMotor.inputJump = false;
-   platformMotor.inputMove = false;
-   frozen = true;
-   tedMove.currSpeed = 0;
+       
+            anim.SetBool("Crouch", true);
+            frozen = true;
+        
    }
    
-   if(Input.GetKeyUp(KeyCode.LeftControl))
+   if(Input.GetButtonUp("Crouch"))
    {
-   platformMotor.inputJump = true;
-	platformMotor.inputMove = true;
+       anim.SetBool("Crouch", false);
 	frozen = false;
   
    }
    
    if(frozen)
    {
-   anim.SetBool("Frozen", true);
-   	curSpeed = 0;
+       anim.SetBool("Crouch", true);
+ 
    }
    else{
-   anim.SetBool("Frozen", false);
+       anim.SetBool("Crouch", false);
     }
 }
    

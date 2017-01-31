@@ -29,6 +29,8 @@ private var moveDirection : Vector3 = Vector3.zero;
 
 var distToGround : float;
 
+var CanMove : boolean;
+
 
 
 
@@ -69,25 +71,35 @@ function Update () {
 	
 	
 	var controller : CharacterController = GetComponent(CharacterController);
-							if(controller.isGrounded){
-			moveDirection = Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-			moveDirection = transform.TransformDirection(moveDirection);
-			moveDirection *= curMoveSpeed;
-	
+	if(controller.isGrounded){
+	    if(CanMove)
+	    {
+	        moveDirection = Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+	        moveDirection = transform.TransformDirection(moveDirection);
+	        moveDirection *= curMoveSpeed;
+	    }
 	
 	
 	
 	
 		
 		
-		if(climbObst)
-	{
-		platformMotor.canJump = false;
-		if(Input.GetButtonDown("Jump"))
+	
+		if(Input.GetButtonDown("Crouch"))
 		{
-		moveDirection = jumpSpeed * wallTransform.up;
+   
+		    CanMove = false;
+		
+		
 		}
-	}
+   
+		if(Input.GetButtonUp("Crouch"))
+		{
+		    CanMove = true;   
+		   
+
+  
+		}
 	
 														}
 }

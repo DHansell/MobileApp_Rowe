@@ -44,44 +44,45 @@ function Start () {
 
 function Update () 
 {
+    
+        curStuffingText.GetComponent(UI.Text).text = curStuffing.ToString();
+        curBonusStuffingText.GetComponent(UI.Text).text = curBonusStuffing.ToString();
 	
-	curStuffingText.GetComponent(UI.Text).text = curStuffing.ToString();
-	curBonusStuffingText.GetComponent(UI.Text).text = curBonusStuffing.ToString();
+        finalTotalText.GetComponent(UI.Text).text = curStuffing.ToString() + " Total Out Of " + totalStuffings.ToString();
+        finalBonusText.GetComponent(UI.Text).text = curBonusStuffing.ToString() + " Bonus Out Of " + totalBonusStuffing.ToString();
 	
-	finalTotalText.GetComponent(UI.Text).text = curStuffing.ToString() + " Total Out Of " + totalStuffings.ToString();
-	finalBonusText.GetComponent(UI.Text).text = curBonusStuffing.ToString() + " Bonus Out Of " + totalBonusStuffing.ToString();
+        if(curStuffing >= totalStuffings / 3)
+        {
+            bronzeStar.SetActive (true);
+            goldStar.SetActive (false);
+            silverStar.SetActive (false);
+            platinumStar.SetActive (false);
+        }
 	
-	if(curStuffing >= totalStuffings / 3)
-	{
-		bronzeStar.SetActive (true);
-		goldStar.SetActive (false);
-		silverStar.SetActive (false);
-		platinumStar.SetActive (false);
-	}
+        if(curStuffing >= totalStuffings / 2)
+        {
+            silverStar.SetActive (true);
+            bronzeStar.SetActive (false);
+            goldStar.SetActive (false);
+            platinumStar.SetActive (false);
+        }
 	
-	if(curStuffing >= totalStuffings / 2)
-	{
-		silverStar.SetActive (true);
-		bronzeStar.SetActive (false);
-		goldStar.SetActive (false);
-		platinumStar.SetActive (false);
-	}
+        if(curStuffing >= totalStuffings - 5)
+        {
+            goldStar.SetActive (true);
+            silverStar.SetActive (false);
+            bronzeStar.SetActive (false);
+            platinumStar.SetActive (false);
+        }
 	
-	if(curStuffing >= totalStuffings - 5)
-	{
-		goldStar.SetActive (true);
-		silverStar.SetActive (false);
-		bronzeStar.SetActive (false);
-		platinumStar.SetActive (false);
-	}
-	
-	if(curStuffing + curBonusStuffing == totalStuffings + totalBonusStuffing)
-	{
-		bronzeStar.SetActive (false);
-		silverStar.SetActive (false);
-		goldStar.SetActive (false);
-		platinumStar.SetActive (true);
-	}
+        if(curStuffing + curBonusStuffing == totalStuffings + totalBonusStuffing)
+        {
+            bronzeStar.SetActive (false);
+            silverStar.SetActive (false);
+            goldStar.SetActive (false);
+            platinumStar.SetActive (true);
+        }
+    
 
 }
 

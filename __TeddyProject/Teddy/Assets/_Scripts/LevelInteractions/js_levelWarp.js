@@ -14,6 +14,6 @@ function Update () {
 function OnTriggerEnter (other: Collider)
     {
 
-         SceneManager.LoadScene(levelName, LoadSceneMode.Additive);
+         SceneManager.LoadScene(levelName);
 
     }

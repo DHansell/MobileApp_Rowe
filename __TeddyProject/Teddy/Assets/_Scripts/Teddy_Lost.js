@@ -8,7 +8,7 @@ var UIObjects : GameObject[];
 var losebuttonUI : GameObject[];
 
 function Start () {
-	
+    Time.timeScale = 1;
 	loseUI.SetActive (false);
 	for(var i = 0; i< losebuttonUI.Length; i++)
 	{

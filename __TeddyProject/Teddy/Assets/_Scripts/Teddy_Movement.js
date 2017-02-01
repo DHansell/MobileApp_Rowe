@@ -31,13 +31,20 @@ var distToGround : float;
 
 var CanMove : boolean;
 
-
+private var LeftButton : GUITexture;
+private var RightButton : GUITexture;
+private var UpButton : GUITexture;
+private var DownButton : GUITexture;
+private var JumpButton : GUITexture;
+private var SleepButton : GUITexture;
 
 
 function Awake () {
 	motor = GetComponent(CharacterMotor);
 	platformMotor = GetComponent(PlatformInputController);
 	animationsScript = GetComponent(Teddy_Animations);
+
+
 }
 
 function Start () {

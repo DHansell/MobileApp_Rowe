@@ -16,7 +16,7 @@ function Awake()
 
 function Startlvl1()
 {
-	levelName = "w_BedRoom";
+	levelName = "w_Hub";
 	SceneManager.LoadScene(levelName);
 }
 

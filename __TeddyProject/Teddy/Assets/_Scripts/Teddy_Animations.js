@@ -21,6 +21,7 @@ var idleGoDown : boolean = false;
 
 var motor : CharacterMotor;
 var tedMove : Teddy_Movement;
+var locationToStay : Vector3;
 
 
 
@@ -149,6 +150,7 @@ function Update ()
    {
        
             anim.SetBool("Crouch", true);
+            
             frozen = true;
         
    }
@@ -160,14 +162,7 @@ function Update ()
   
    }
    
-   if(frozen)
-   {
-       anim.SetBool("Crouch", true);
- 
-   }
-   else{
-       anim.SetBool("Crouch", false);
-    }
+   
 }
    
    function UpdateHealth(newDamage : float)

@@ -15,7 +15,7 @@ var period : float;
 
 var lightOn : boolean;
 
-var teddy : GameObject;
+var Teddy : GameObject;
 
 var warnTime : float;
 
@@ -32,6 +32,7 @@ var openLight : boolean;
 var collidedWithLight : boolean;
 
 var playAudioOnce : boolean = true;
+
 
 
 function Awake()
@@ -151,7 +152,7 @@ function WaitToTurnOff()
 
 function OnCollisionEnter(collision: Collision) 
     {
-        if (collision.GameObject.tag == "Light")
+        if (collision.gameObject.tag == "Light")
         {
             collidedWithLight = true;
     }
@@ -160,7 +161,7 @@ function OnCollisionEnter(collision: Collision)
                collidedWithLight = false;
         }
 
-        if (collision.GameObject.tag == "DeathZone")
+        if (collision.gameObject.tag == "DeathZone")
         {
             tedLost.lostGame = true;
         }

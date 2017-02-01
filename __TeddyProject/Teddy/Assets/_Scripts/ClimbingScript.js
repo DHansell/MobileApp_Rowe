@@ -9,11 +9,3 @@ function Awake()
 	tedMove = player.GetComponent(Teddy_Movement);
 }
 
-function OnCollisionEnter(col:Collision)
-  {	
-  		if(col.gameObject.tag == "player")
-  		{
-	  		player.tedMove.wallTransform = ClimbObj;
-	  	}
-	  		
-  }

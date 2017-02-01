@@ -1,5 +1,6 @@
 var target : Transform;
 var distance = 10.0;
+var distanceOffset = 0.0;
 
 var distanceUp = 2.0;
 
